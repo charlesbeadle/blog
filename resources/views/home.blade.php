@@ -16,7 +16,7 @@
   <meta name="theme-color" content="#ffffff">
   <title>Charles Beadle's Tech Blog</title>
 </head>
-<body class="bg-thedeep text-moon min-h-screen flex flex-col justify-between font-mono">
+<body class="bg-gradient-to-b from-thedeep to-[#000] text-moon min-h-screen flex flex-col justify-between font-mono">
   <!--
      ________  _____    ____  __    ___________ ____  _________    ____  __    __________________________  __
     / ____/ / / /   |  / __ \/ /   / ____/ ___// __ )/ ____/   |  / __ \/ /   / ____/_  __/ ____/ ____/ / / /
@@ -32,7 +32,7 @@
     See body classes. 
     -->
     <main class="mx-auto w-11/12 max-w-screen-2xl xl:w-2/3 pb-10">
-      <section class="mt-14 sm:mt-24 mb-10 sm:mb-16 lg:mb-20 xl:mb-24 mx-auto 2xl:mx-0 w-full md:w-3/4 lg:w-3/5 xl:w-3/4 2xl:w-full flex flex-col lg:flex-row"><!-- About me section with socials -->
+      <section class="mt-10 sm:mt-24 mb-10 sm:mb-16 lg:mb-20 xl:mb-24 mx-auto 2xl:mx-0 w-full md:w-3/4 lg:w-3/5 xl:w-3/4 2xl:w-full flex flex-col lg:flex-row"><!-- About me section with socials -->
         <img src="/images/self.jpg" alt="Charles Beadle" class="mb-6 xl:mb-0 mr-0 lg:mr-14 h-auto md:h-24 lg:h-32 2xl:h-44 w-28 lg:w-auto rounded-md grayscale-[.7] transition-all hover:grayscale-[0] duration-1000">
         <div class="mb-5 w-full flex flex-col">
           <h1 class="mb-3 xl:mb-4 2xl:mb-6 text-xl sm:text-2xl 2xl:text-5xl font-bold text-glare">Welcome!</h1>
