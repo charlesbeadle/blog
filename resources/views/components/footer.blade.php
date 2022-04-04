@@ -1,8 +1,8 @@
-<footer class="py-4 bg-white border-t border-x-gray-50">
+<footer class="py-4 bg-thedeep">
   <div class="mx-auto w-11/12 md:w-[69%] lg:w-[55%] xl:w-1/2 2xl:w-2/3 max-w-screen-2xl flex flex-col lg:flex-row lg:justify-between justify-center lg:items-center">
     <nav class="mb-4 lg:mb-0 flex items-center">
-      <a href="/" class="mr-1.5 sm:mr-4 hover:border-gray-500 border-b-2 transition-colors duration-200 border-transparent text-md font-bold">HOME</a>
-      <a href="/topics" class="ml-1.5 sm:ml-4 border-transparent hover:border-gray-500 border-b-2 transition-colors duration-200 text-md font-bold">TOPICS</a>
+      <a href="/" class="mr-1.5 sm:mr-4 hover:border-glare border-b-2 transition-colors duration-200 border-thedeep text-md font-bold">HOME</a>
+      <a href="/topics" class="ml-1.5 sm:ml-4 border-thedeep hover:border-glare border-b-2 transition-colors duration-200 text-md font-bold">TOPICS</a>
     </nav>
     <div class="flex items-center">
       <a href="https://github.com/charlesbeadle" target="_blank" class="mr-6" title="Github">

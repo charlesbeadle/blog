@@ -11,7 +11,7 @@
   box-sizing: border-box; /* 1 */
   border-width: 0; /* 2 */
   border-style: solid; /* 2 */
-  border-color: #e5e7eb; /* 2 */
+  border-color: currentColor; /* 2 */
 }
 
 ::before,
@@ -512,9 +512,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-2\/6 {
   width: 33.333333%;
 }
-.w-2\/3 {
-  width: 66.666667%;
-}
 .w-\[70px\] {
   width: 70px;
 }
@@ -560,29 +557,30 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-t {
   border-top-width: 1px;
 }
-.border-gray-600 {
+.border-thedeep {
   --tw-border-opacity: 1;
-  border-color: rgb(75 85 99 / var(--tw-border-opacity));
+  border-color: rgb(3 12 20 / var(--tw-border-opacity));
 }
-.border-gray-500 {
+.border-mineral {
   --tw-border-opacity: 1;
-  border-color: rgb(107 114 128 / var(--tw-border-opacity));
+  border-color: rgb(222 184 135 / var(--tw-border-opacity));
 }
-.border-transparent {
-  border-color: transparent;
-}
-.border-x-gray-50 {
+.border-moon {
   --tw-border-opacity: 1;
-  border-left-color: rgb(249 250 251 / var(--tw-border-opacity));
-  border-right-color: rgb(249 250 251 / var(--tw-border-opacity));
+  border-color: rgb(134 133 131 / var(--tw-border-opacity));
 }
-.bg-gray-100 {
+.border-x-moon {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(134 133 131 / var(--tw-border-opacity));
+  border-right-color: rgb(134 133 131 / var(--tw-border-opacity));
+}
+.bg-thedeep {
   --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  background-color: rgb(3 12 20 / var(--tw-bg-opacity));
 }
-.bg-white {
+.bg-carbon {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(28 36 44 / var(--tw-bg-opacity));
 }
 .px-3 {
   padding-left: 0.75rem;
@@ -644,17 +642,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 .leading-none {
   line-height: 1;
 }
-.text-gray-600 {
+.text-moon {
   --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
+  color: rgb(134 133 131 / var(--tw-text-opacity));
 }
-.text-gray-700 {
+.text-glare {
   --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
+  color: rgb(215 214 214 / var(--tw-text-opacity));
 }
 .underline {
   -webkit-text-decoration-line: underline;
@@ -672,6 +666,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-glare {
+  --tw-shadow-color: #d7d6d6;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+.shadow-moon {
+  --tw-shadow-color: #868583;
+  --tw-shadow: var(--tw-shadow-colored);
 }
 .grayscale-\[\.7\] {
   --tw-grayscale: grayscale(.7);
@@ -698,13 +705,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:border-b-2:hover {
   border-bottom-width: 2px;
 }
-.hover\:border-gray-500:hover {
+.hover\:border-glare:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(107 114 128 / var(--tw-border-opacity));
-}
-.hover\:text-gray-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
+  border-color: rgb(215 214 214 / var(--tw-border-opacity));
 }
 .hover\:grayscale-\[0\]:hover {
   --tw-grayscale: grayscale(0);
@@ -788,22 +791,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-\[69\%\] {
     width: 69%;
-  }
-
-  .md\:w-3\/5 {
-    width: 60%;
-  }
-
-  .md\:w-4\/5 {
-    width: 80%;
-  }
-
-  .md\:w-2\/3 {
-    width: 66.666667%;
-  }
-
-  .md\:w-\[93\%\] {
-    width: 93%;
   }
 
   .md\:text-xl {
