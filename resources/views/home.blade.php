@@ -35,8 +35,8 @@
       <section class="mt-10 sm:mt-24 mb-10 sm:mb-16 lg:mb-20 xl:mb-24 mx-auto 2xl:mx-0 w-full md:w-3/4 lg:w-3/5 xl:w-3/4 2xl:w-full flex flex-col lg:flex-row"><!-- About me section with socials -->
         <img src="/images/self.jpg" alt="Charles Beadle" class="mb-6 xl:mb-0 mr-0 lg:mr-14 h-auto md:h-24 lg:h-32 2xl:h-44 w-28 lg:w-auto rounded-md grayscale-[.7] transition-all hover:grayscale-[0] duration-1000">
         <div class="mb-5 w-full flex flex-col">
-          <h1 class="mb-3 xl:mb-4 2xl:mb-6 text-xl sm:text-2xl 2xl:text-5xl font-bold text-glare">Welcome!</h1>
-          <p class="2xl:text-3xl">Hey, I'm Charles. This is my new tech blog. So far, topics include Linux System Administration and Web Development.</p>
+          <h1 class="mb-3 xl:mb-4 2xl:mb-6 text-xl sm:text-2xl 2xl:text-5xl font-bold text-glare">Hey, I'm Charles. Welcome to my tech blog!</h1>
+          <p class="2xl:text-3xl">I'm a developer from the Tampa Bay area, and I'm into web development and Linux system administration.</p>
         </div>
       </section><!-- /About me section with socials -->
       <div class="flex justify-between">

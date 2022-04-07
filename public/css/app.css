@@ -428,8 +428,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: auto;
   margin-right: auto;
 }
-.mt-14 {
-  margin-top: 3.5rem;
+.mt-10 {
+  margin-top: 2.5rem;
 }
 .mb-10 {
   margin-bottom: 2.5rem;
@@ -448,6 +448,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+.mt-14 {
+  margin-top: 3.5rem;
 }
 .mb-7 {
   margin-bottom: 1.75rem;
@@ -475,15 +478,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .mt-2 {
   margin-top: 0.5rem;
-}
-.mt-7 {
-  margin-top: 1.75rem;
-}
-.mt-8 {
-  margin-top: 2rem;
-}
-.mt-10 {
-  margin-top: 2.5rem;
 }
 .block {
   display: block;
@@ -548,12 +542,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .rounded {
   border-radius: 0.25rem;
 }
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-.rounded-sm {
-  border-radius: 0.125rem;
-}
 .border-2 {
   border-width: 2px;
 }
@@ -567,24 +555,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-border-opacity: 1;
   border-color: rgb(134 133 131 / var(--tw-border-opacity));
 }
-.border-thedeep {
-  --tw-border-opacity: 1;
-  border-color: rgb(3 12 20 / var(--tw-border-opacity));
-}
 .border-\[\#000\] {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
-.bg-thedeep {
-  --tw-bg-opacity: 1;
-  background-color: rgb(3 12 20 / var(--tw-bg-opacity));
+.border-thedeep {
+  --tw-border-opacity: 1;
+  border-color: rgb(3 12 20 / var(--tw-border-opacity));
 }
 .bg-carbon {
   --tw-bg-opacity: 1;
   background-color: rgb(28 36 44 / var(--tw-bg-opacity));
-}
-.bg-gradient-to-br {
-  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
@@ -593,14 +574,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-from: #030c14;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(3 12 20 / 0));
 }
-.to-carbon {
-  --tw-gradient-to: #1c242c;
-}
 .to-\[\#000\] {
   --tw-gradient-to: #000;
-}
-.to-\[\#111\] {
-  --tw-gradient-to: #111;
 }
 .p-6 {
   padding: 1.5rem;
@@ -617,29 +592,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 .pb-10 {
   padding-bottom: 2.5rem;
@@ -685,18 +640,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-text-opacity: 1;
   color: rgb(215 214 214 / var(--tw-text-opacity));
 }
+.text-\[\#8B8B89\] {
+  --tw-text-opacity: 1;
+  color: rgb(139 139 137 / var(--tw-text-opacity));
+}
 .underline {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
 .decoration-2 {
   text-decoration-thickness: 2px;
-}
-.underline-offset-1 {
-  text-underline-offset: 1px;
-}
-.underline-offset-2 {
-  text-underline-offset: 2px;
 }
 .underline-offset-4 {
   text-underline-offset: 4px;
@@ -731,13 +684,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:border-b-2:hover {
   border-bottom-width: 2px;
 }
-.hover\:border-glare:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(215 214 214 / var(--tw-border-opacity));
-}
 .hover\:border-moon:hover {
   --tw-border-opacity: 1;
   border-color: rgb(134 133 131 / var(--tw-border-opacity));
+}
+.hover\:border-glare:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(215 214 214 / var(--tw-border-opacity));
 }
 .hover\:grayscale-\[0\]:hover {
   --tw-grayscale: grayscale(0);
