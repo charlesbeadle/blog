@@ -7,6 +7,6 @@ module.exports = {
       'glare': '#d7d6d6',
       'carbon': '#1c242c',
       'mineral': '#deb887'
-    }
+    }    
   }
 };

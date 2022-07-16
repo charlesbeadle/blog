@@ -15,21 +15,15 @@ use App\Models\Post;
 */
 
 Route::get('/', function () {
-    return view('home', ['posts' => Post::get()->take(5)]);
+    return view("home");
+});
+
+Route::get('posts/{post}', function($post) {
+    return view("posts/$post");
 });
 
 Route::get('rss', function () {
-    return view('rss');
+    return view("rss");
 });
 
-Route::get('topics', function() {
-    return view('topics', ['posts' => Post::get()->take(5)]);
-});
 
-Route::get('topics/{topic}', function($topic) {
-    return view('topics', ['posts' => Post::where('topic', $topic)->get()]);
-});
-
-Route::get('posts/{post:slug}', function(Post $post) {
-    return view('layouts.post', ['post' => $post]);
-});

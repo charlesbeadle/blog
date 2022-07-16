@@ -35,26 +35,37 @@
       <section class="mt-10 sm:mt-24 mb-10 sm:mb-16 lg:mb-20 xl:mb-24 mx-auto 2xl:mx-0 w-full md:w-3/4 lg:w-3/5 xl:w-3/4 2xl:w-full flex flex-col lg:flex-row"><!-- About me section with socials -->
         <img src="/images/self.jpg" alt="Charles Beadle" class="mb-6 xl:mb-0 mr-0 lg:mr-14 h-auto md:h-24 lg:h-32 2xl:h-44 w-28 lg:w-auto rounded-md grayscale-[.7] transition-all hover:grayscale-[0] duration-1000">
         <div class="mb-5 w-full flex flex-col">
-          <h1 class="mb-3 xl:mb-4 2xl:mb-6 text-xl sm:text-2xl 2xl:text-5xl font-bold text-glare">Hey, I'm Charles. Welcome to my tech blog!</h1>
-          <p class="2xl:text-3xl">I'm a developer from the Tampa Bay area, and I'm into web development and Linux system administration.</p>
+          <h1 class="mb-3 xl:mb-4 2xl:mb-6 text-xl sm:text-2xl 2xl:text-5xl font-bold text-glare">Hey, I'm Charles. Welcome to my site!</h1>
+          <p class="2xl:text-3xl">I'm a developer from the Tampa Bay area. I'm into web development and Linux system administration.</p>
         </div>
       </section><!-- /About me section with socials -->
       <div class="flex justify-between">
         <section class="mx-auto 2xl:mx-0 w-full md:w-3/4 lg:w-3/5 xl:w-3/4 2xl:w-3/5"><!-- Posts section -->
           <div class="pt-[5px] mb-6 flex justify-between w-full">
-            <h2 class="text-xl sm:text-2xl text-glare font-bold block leading-none">Recent Posts</h2>  
-            <a href="/topics" class="hidden md:block px-3 py-2 font-bold text-glare border-2 border-moon rounded leading-none">
-              Browse All
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="inline-block" fill="currentColor" viewBox="0 0 16 16" role="none">
-                <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
-              </svg> 
-            </a>
+            <h2 class="text-xl sm:text-2xl text-glare font-bold block leading-none">Posts</h2>              
           </div>
           <hr class="mb-6">
           <ul>
-            @foreach($posts as $post)
-              <x-post :post="$post"/>
-            @endforeach
+            <li class="mb-10 md:ml-0 w-full">              
+              <p class="mb-2 text-sm font-light text-[#8B8B89]">07-16-2022</p>              
+              <a href="/posts/post-one" class="text-md md:text-xl lg:text-2xl font-bold text-glare underline underline-offset-4 lg:no-underline lg:hover:underline decoration-2">Blog post title here</a>
+            </li>
+            <li class="mb-10 md:ml-0 w-full">              
+              <p class="mb-2 text-sm font-light text-[#8B8B89]">07-16-2022</p>              
+              <a href="/posts/post-one" class="text-md md:text-xl lg:text-2xl font-bold text-glare underline underline-offset-4 lg:no-underline lg:hover:underline decoration-2">Blog post title here</a>
+            </li>
+            <li class="mb-10 md:ml-0 w-full">              
+              <p class="mb-2 text-sm font-light text-[#8B8B89]">07-16-2022</p>              
+              <a href="/posts/post-one" class="text-md md:text-xl lg:text-2xl font-bold text-glare underline underline-offset-4 lg:no-underline lg:hover:underline decoration-2">Blog post title here</a>
+            </li>
+            <li class="mb-10 md:ml-0 w-full">              
+              <p class="mb-2 text-sm font-light text-[#8B8B89]">07-16-2022</p>              
+              <a href="/posts/post-one" class="text-md md:text-xl lg:text-2xl font-bold text-glare underline underline-offset-4 lg:no-underline lg:hover:underline decoration-2">Blog post title here</a>
+            </li>
+            <li class="mb-10 md:ml-0 w-full">              
+              <p class="mb-2 text-sm font-light text-[#8B8B89]">07-16-2022</p>              
+              <a href="/posts/post-one" class="text-md md:text-xl lg:text-2xl font-bold text-glare underline underline-offset-4 lg:no-underline lg:hover:underline decoration-2">Blog post title here</a>
+            </li>
           </ul> 
         </section><!-- /Posts section -->
         <aside class="hidden 2xl:flex flex-col w-2/6"><!-- Contact info -->
