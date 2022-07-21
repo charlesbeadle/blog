@@ -8,13 +8,12 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="/css/app.css">  
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <title>Charles Beadle's Tech Blog</title>
+  <title>Charles Beadle</title>
   @vite(['resources/css/app.css', 'resources/js/app.js'])  
 </head>
 <body class="bg-gradient-to-b from-thedeep to-[#000] text-moon min-h-screen flex flex-col justify-between font-mono">
