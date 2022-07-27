@@ -23,7 +23,12 @@
     and maintain space between that content and the footer. 
     See body classes. 
     -->
-    <main class="mx-auto w-11/12 max-w-screen-2xl xl:w-2/3 pb-10">
+    <x-navbar/>
+    <main class="mx-auto w-11/12 lg:w-[55%] md:w-[69%] xl:w-1/2 max-w-screen-lg pb-10">
+      <p class="mb-6 text-xs font-bold text-center text-moon">Published on @yield('published')</p>
+      <h1 class="mb-6 text-2xl lg:text-3xl text-glare text-center font-bold">@yield('heading')</h1>
+      <p class="mb-6 text-center">@yield('intro')</p>
+      <img src="/images/@yield('image')" alt="@yield('alt-text')">
       @yield('content')
     </main>
   </div>
